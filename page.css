@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 90vh;
+  background: url(cof.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section#page{
+  position: fixed;
+  width: 100%;
+  max-width: 90%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999;
+}
+.branding{
+  display: grid;
+  grid-template-columns: 30% 90%;
+  align-items: center;
+  padding: 20px 0;
+}
+.branding a:hover{
+  background-color: #fff;
+  color: #000;
+}
+ul.listing{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+ul.listing li{
+  margin: 0 20px;
+}
+ul.listing > li > a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+}
+.site-url{
+  display: block;
+}
+.site-url > img{
+  width: 100%;
+  max-width: 50px;
+}
+.description{
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  color: #fff;
+  padding: 0 70px;
+  text-align: center;
+}
+.description h2{
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 45px;
+}
+.description h1{
+  font-size: 42px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  letter-spacing: 5px;
+  line-height: 70px;
+}
+.description p{
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 70px;
+}
+.description button{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  background: none;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.description button:hover{
+  background: #fff;
+  color: #000;
+}
+
